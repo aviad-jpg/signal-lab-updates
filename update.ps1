@@ -48,6 +48,14 @@ try {
     }
 
     Set-Content -LiteralPath (Join-Path $AppDir "installed_version.txt") -Value $Manifest.version -Encoding ASCII
+    $Runner = Join-Path $AppDir "RUN_BACKTEST_V6.bat"
+    if (Test-Path -LiteralPath $Runner) {
+        $Shell = New-Object -ComObject WScript.Shell
+        $Shortcut = $Shell.CreateShortcut([System.IO.Path]::Combine([Environment]::GetFolderPath("Desktop"), "Signal Lab Backtest v6.lnk"))
+        $Shortcut.TargetPath = $Runner
+        $Shortcut.WorkingDirectory = $AppDir
+        $Shortcut.Save()
+    }
     Write-Host "Signal Lab updated successfully to version $($Manifest.version)."
     Write-Host "Backup: $BackupDir"
 }
