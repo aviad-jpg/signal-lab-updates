@@ -1,13 +1,13 @@
 {
-  "version": "6.0.0",
-  "published_at": "2026-10-20T20:52:00+03:00",
+  "version": "6.1.0",
+  "published_at": "2026-10-20T21:58:00+03:00",
   "files": [
-    {"path": "model_editor.py", "sha256": "3f972b3e4660ffbc94434f7feb131eacae8c59f74ef4f1de62c61e48d880c2e3"},
-    {"path": "backtest.py", "sha256": "6bb2d2b6450b6f1905be8aa8b9ea99d1d2875ff30d13ad7d70ed3d5061d320e3"},
-    {"path": "test_guards.py", "sha256": "238ec670a65afa4c5c0cec9a13d0acc99a2bf5f9aa7a1e0805a94c532fea3722"},
-    {"path": "manifest.example.json", "sha256": "14835431af066a1b4c27307ec9b072759455a06933f875fde64f141ae9204e12"},
-    {"path": "README.md", "sha256": "5f3f18caba31b7962a50fbb7f161b86cf645a9298edcf10815959cec5326eccb"},
-    {"path": "backtest_manifest.json", "sha256": "213dc14b342737082e5e7b2a39ccb5168238c91bae9af8a461a319b5d8a6a3e2"},
-    {"path": "RUN_BACKTEST_V6.bat", "sha256": "744609bc16a1dd2e722f99069a79c31a8b8e6277b9a2edde420b5f2ec582e196"}
+    {"path":"README.md","sha256":"ff08b81eb9bb6b3176428c694b041f4b570e579e1a93dcb80b88708d8b58dc72"},
+    {"path":"RUN_BACKTEST_V6.bat","sha256":"744609bc16a1dd2e722f99069a79c31a8b8e6277b9a2edde420b5f2ec582e196"},
+    {"path":"backtest.py","sha256":"d61dc565f5d78100c2a797d29227019dedb5c162a4d3accf04c095211c971093"},
+    {"path":"backtest_manifest.json","sha256":"213dc14b342737082e5e7b2a39ccb5168238c91bae9af8a461a319b5d8a6a3e2"},
+    {"path":"manifest.example.json","sha256":"14835431af066a1b4c27307ec9b072759455a06933f875fde64f141ae9204e12"},
+    {"path":"model_editor.py","sha256":"2a88fb59c9859f1243fda16134f6b2f071fe5e75db70a0d49e1178f1e1a3a069"},
+    {"path":"test_guards.py","sha256":"7b8f5746ecf3bd935ff4f974e1f7f8dbe0b81342153d682b493019934e3b6062"}
   ]
 }
