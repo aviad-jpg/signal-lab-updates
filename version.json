@@ -1,11 +1,13 @@
 {
   "version": "6.0.0",
-  "published_at": "2026-10-20T20:25:00+03:00",
+  "published_at": "2026-10-20T20:52:00+03:00",
   "files": [
     {"path": "model_editor.py", "sha256": "3f972b3e4660ffbc94434f7feb131eacae8c59f74ef4f1de62c61e48d880c2e3"},
     {"path": "backtest.py", "sha256": "6bb2d2b6450b6f1905be8aa8b9ea99d1d2875ff30d13ad7d70ed3d5061d320e3"},
     {"path": "test_guards.py", "sha256": "238ec670a65afa4c5c0cec9a13d0acc99a2bf5f9aa7a1e0805a94c532fea3722"},
     {"path": "manifest.example.json", "sha256": "14835431af066a1b4c27307ec9b072759455a06933f875fde64f141ae9204e12"},
-    {"path": "README.md", "sha256": "5f3f18caba31b7962a50fbb7f161b86cf645a9298edcf10815959cec5326eccb"}
+    {"path": "README.md", "sha256": "5f3f18caba31b7962a50fbb7f161b86cf645a9298edcf10815959cec5326eccb"},
+    {"path": "backtest_manifest.json", "sha256": "213dc14b342737082e5e7b2a39ccb5168238c91bae9af8a461a319b5d8a6a3e2"},
+    {"path": "RUN_BACKTEST_V6.bat", "sha256": "744609bc16a1dd2e722f99069a79c31a8b8e6277b9a2edde420b5f2ec582e196"}
   ]
 }
