@@ -36,8 +36,11 @@ if errorlevel 1 (
   echo pause
 ) > "%UPDATER%"
 
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$w=New-Object -ComObject WScript.Shell; $s=$w.CreateShortcut([System.IO.Path]::Combine([Environment]::GetFolderPath('Desktop'),'Signal Lab Update.lnk')); $s.TargetPath='%UPDATER%'; $s.WorkingDirectory='%SYSTEM_DIR%'; $s.Save()"
+
 echo Permanent updater installed:
 echo %UPDATER%
+echo A shortcut named Signal Lab Update was added to the Desktop.
 echo.
 echo Running the first update now...
 call "%UPDATER%"
