@@ -1,0 +1,50 @@
+{
+  "gold": "gold_standard.json",
+  "history_before_start": [
+    "history/2026-09-28.json",
+    "history/2026-09-30.json",
+    "history/2026-10-01.json",
+    "history/2026-10-02.json",
+    "history/2026-10-03.json",
+    "history/2026-10-04.json",
+    "history/2026-10-05.json",
+    "history/2026-10-06.json",
+    "history/2026-10-08.json",
+    "history/2026-10-09.json",
+    "history/2026-10-10.json"
+  ],
+  "days": [
+    {
+      "date": "2026-10-11",
+      "pool": "inputs/2026-10-11.json"
+    },
+    {
+      "date": "2026-10-12",
+      "pool": "inputs/2026-10-12.json"
+    },
+    {
+      "date": "2026-10-13",
+      "pool": "inputs/2026-10-13.json"
+    },
+    {
+      "date": "2026-10-16",
+      "pool": "inputs/2026-10-16.json"
+    },
+    {
+      "date": "2026-10-17",
+      "pool": "inputs/2026-10-17.json"
+    },
+    {
+      "date": "2026-10-18",
+      "pool": "inputs/2026-10-18.json"
+    },
+    {
+      "date": "2026-10-19",
+      "pool": "inputs/2026-10-19.json"
+    },
+    {
+      "date": "2026-10-20",
+      "pool": "inputs/2026-10-20.json"
+    }
+  ]
+}
