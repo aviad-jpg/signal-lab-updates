@@ -56,6 +56,21 @@ try {
         $Shortcut.WorkingDirectory = $AppDir
         $Shortcut.Save()
     }
+    $Collector = Join-Path $AppDir "COLLECT_SHADOW_RESULTS.bat"
+    if (Test-Path -LiteralPath $Collector) {
+        $Shell = New-Object -ComObject WScript.Shell
+        $Shortcut = $Shell.CreateShortcut([System.IO.Path]::Combine([Environment]::GetFolderPath("Desktop"), "Signal Lab Shadow Results.lnk"))
+        $Shortcut.TargetPath = $Collector
+        $Shortcut.WorkingDirectory = $AppDir
+        $Shortcut.Save()
+    }
+    $DailyShadowInstaller = Join-Path $AppDir "install_daily_shadow.ps1"
+    if (Test-Path -LiteralPath $DailyShadowInstaller) {
+        & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $DailyShadowInstaller
+        if ($LASTEXITCODE -ne 0) {
+            throw "Could not install the automatic Daily Shadow task."
+        }
+    }
     Write-Host "Signal Lab updated successfully to version $($Manifest.version)."
     Write-Host "Backup: $BackupDir"
 }
