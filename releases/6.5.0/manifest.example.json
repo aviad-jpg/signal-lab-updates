@@ -1,0 +1,8 @@
+{
+  "gold": "gold_standard.json",
+  "history_before_start": ["history/2026-10-10.json"],
+  "days": [
+    {"date": "2026-10-11", "pool": "inputs/2026-10-11/unified_editorial_shadow_input.json"},
+    {"date": "2026-10-12", "pool": "inputs/2026-10-12/unified_editorial_shadow_input.json"}
+  ]
+}
