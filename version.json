@@ -1,18 +1,18 @@
 {
-  "version": "6.3.0",
-  "published_at": "2026-10-24T08:00:00Z",
+  "version": "6.4.0",
+  "published_at": "2026-10-24T08:45:00Z",
   "files": [
     {"path":"COLLECT_SHADOW_RESULTS.bat","sha256":"3bd4d178a6f0fa021d60d57480542a6a5e977994f6e328978738f3c6b6548054"},
-    {"path":"README.md","sha256":"75b688ffac60cdcc3fcfbb036b57ec0763f7b9723e18c64cd9a178ff70899dac"},
+    {"path":"README.md","sha256":"c93ed8eb3d022ece79bbb3a69c08a27798e800576290f73ea3545470920c2655"},
     {"path":"RUN_BACKTEST_V6.bat","sha256":"744609bc16a1dd2e722f99069a79c31a8b8e6277b9a2edde420b5f2ec582e196"},
     {"path":"RUN_DAILY_SHADOW_V6.bat","sha256":"9c460829801a7faa500dc2ec8bc07c7802505055e86036b1661b9068ad89b662"},
-    {"path":"backtest.py","sha256":"dec682d9414dad2f262771ada3a5d38dce09180936a8a85458a04cb45f8deab0"},
+    {"path":"backtest.py","sha256":"daf0c3fada20574e6b609d86703cec8c772afba1aecc290818b1c3ff81969c29"},
     {"path":"backtest_manifest.json","sha256":"213dc14b342737082e5e7b2a39ccb5168238c91bae9af8a461a319b5d8a6a3e2"},
     {"path":"collect_shadow_results.py","sha256":"fdc6ddea2b0b77b94100985f3640d2f7c5047342213433707c0a0b1b79c32b71"},
     {"path":"install_daily_shadow.ps1","sha256":"266ca0b8aaffb5efb62a7ac287ae5042e24627cde4d278034c4acde1999efc8a"},
     {"path":"manifest.example.json","sha256":"14835431af066a1b4c27307ec9b072759455a06933f875fde64f141ae9204e12"},
-    {"path":"model_editor.py","sha256":"1754cc1912cf75c123490a8f527fff298dac5328a8d1ca490a70f7599c864d9c"},
+    {"path":"model_editor.py","sha256":"007195b12945f1cb0092be2872bac442a36515997bd1c4ba70a412608401f0d2"},
     {"path":"run_today_shadow.py","sha256":"58a4ce5dbfe229daf95bdf00b9aa6b4e9ceccf37a45443f7ad2d4afa67da55a8"},
-    {"path":"test_guards.py","sha256":"8328253b8d1fc71d065ea9cdc34b4dc7f191b758dc46b8b501f5c90366250aa0"}
+    {"path":"test_guards.py","sha256":"f3a19ef0660c3bfc2ea769cbbcee95a6ec5a484bc6b7e7ee019f25e36259e837"}
   ]
 }
