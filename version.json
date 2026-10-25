@@ -1,18 +1,7 @@
 {
-  "version": "6.5.0",
-  "published_at": "2026-10-24T09:45:00Z",
+  "version": "6.5.1",
+  "published_at": "2026-10-25T11:35:00Z",
   "files": [
-    {"path":"COLLECT_SHADOW_RESULTS.bat","sha256":"3bd4d178a6f0fa021d60d57480542a6a5e977994f6e328978738f3c6b6548054"},
-    {"path":"README.md","sha256":"76f73367cea7374531747402df94c1ccfaf252cb3133f965dddf6779e1e13d28"},
-    {"path":"RUN_BACKTEST_V6.bat","sha256":"744609bc16a1dd2e722f99069a79c31a8b8e6277b9a2edde420b5f2ec582e196"},
-    {"path":"RUN_DAILY_SHADOW_V6.bat","sha256":"9c460829801a7faa500dc2ec8bc07c7802505055e86036b1661b9068ad89b662"},
-    {"path":"backtest.py","sha256":"5e6dae72f259c3219ea7f2e0fb695c471d928e306fbb6f4c1beb97ece465f8f7"},
-    {"path":"backtest_manifest.json","sha256":"213dc14b342737082e5e7b2a39ccb5168238c91bae9af8a461a319b5d8a6a3e2"},
-    {"path":"collect_shadow_results.py","sha256":"fdc6ddea2b0b77b94100985f3640d2f7c5047342213433707c0a0b1b79c32b71"},
-    {"path":"install_daily_shadow.ps1","sha256":"3e5862dd93ca1e3a100d9d376d73ff4a717fd3161619ab22465a7db303c2b682"},
-    {"path":"manifest.example.json","sha256":"14835431af066a1b4c27307ec9b072759455a06933f875fde64f141ae9204e12"},
-    {"path":"model_editor.py","sha256":"a8fbcfc09b3b207cf7773878b1fcf046f6d182c05c7490df3aa8761ea88f0d18"},
-    {"path":"run_today_shadow.py","sha256":"284821d03488f41ac3e810e39ab637c51008bbe79ce5434ff5bd0948dc1c04b3"},
-    {"path":"test_guards.py","sha256":"96dfdbd93ec55d6cae6ad0ed1a80d2545df40ddc5c60963dd9906ef7167cf77e"}
+    {"path":"collect_shadow_results.py","sha256":"53ea6f51023fc76cc5bb43b5eca05fed4a6e085e1c7f721bffede8921cc872e2"}
   ]
 }
