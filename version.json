@@ -1,7 +1,13 @@
 {
-  "version": "6.5.1",
-  "published_at": "2026-10-25T11:35:00Z",
+  "version": "6.6.0",
+  "published_at": "2026-10-25T11:55:00Z",
   "files": [
-    {"path":"collect_shadow_results.py","sha256":"53ea6f51023fc76cc5bb43b5eca05fed4a6e085e1c7f721bffede8921cc872e2"}
+    {"path":"README.md","sha256":"7a7d543ee8b0eee9a2f211a58970c351111511fdaf2e485416bcd612724ffaf8"},
+    {"path":"backtest.py","sha256":"cc1575bc3b9c0f4d55f0ba18f000e0534fab3d279a20eeb8da7ea766962626b8"},
+    {"path":"collect_shadow_results.py","sha256":"d67d164491d92f580e2effe175fe9ba8d179a6d736652cdf7fa675986a6afae3"},
+    {"path":"install_daily_shadow.ps1","sha256":"d23652673b8b1004ef09bc22a85ca4c1377a26122003334f418a2e6426ed0fe6"},
+    {"path":"model_editor.py","sha256":"ecd9bca817be42ab84762348d9ac5047734cfbc8640fc8c1cb69923cb782f409"},
+    {"path":"run_today_shadow.py","sha256":"f9c42e8f78f8c1bae2f2c25ed8c8d4340c835a7915436d00c9b788ea097c6921"},
+    {"path":"test_guards.py","sha256":"073a15b5e48f7a9ade81352a1901a6f0014aee9f860225cb1d3fdd42ed0d8648"}
   ]
 }
